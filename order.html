@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vintage Thrift - Order</title>
+    <link rel="stylesheet" type="text/css" href="user_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+          <a href="index.html" class="logo"> <img src="image/logo.webp" width="130px"></a>
+          <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="shop.html">shop</a>  
+            <a href="order.html">order</a>
+            <a href="contact.html">contact us</a>
+            <a href="about-us.html">about us</a>
+          </nav>
+          <form action="" method="post" class="search-form">
+            <input type="text" name="search_product" placeholder="search product.." required maxlength="100">
+            <button type="submit" class="fa-solid fa-magnifying-glass" id="search_product_btn"></button>
+          </form>
+          <div class="icons">
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+
+            <a href=""><i class="fa-regular fa-heart"></i><sup>0</sup></a>
+            
+            <a href=""><i class="fa-solid fa-cart-shopping"></i><sup>0</sup></a>
+          </div>
+        </section>
+      </header>
+
+    <div class="banner">
+        <div class="detail">
+            <div class="box-container">
+                <div class="box">
+                <h1>my orders</h1>
+                <span> <a href="index.html">home </a> <i class="fa-solid fa-arrow-right"></i>my orders</span> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="orders">
+        <div class="heading">
+            <h1>my orders</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <center>
+                <p>no orders yet!</p>
+                </center>
+            </div>
+            
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="user_script.js"></script>
+  
+</body>
+</html>

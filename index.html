@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vintage Thrift - Home</title>
+    <link rel="stylesheet" type="text/css" href="user_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+          <a href="index.html" class="logo"> <img src="image/logo.webp" width="130px"></a>
+          <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="shop.html">shop</a>  
+            <a href="order.html">order</a>
+            <a href="contact.html">contact us</a>
+            <a href="about-us.html">about us</a>
+          </nav>
+          <form action="" method="post" class="search-form">
+            <input type="text" name="search_product" placeholder="search product.." required maxlength="100">
+            <button type="submit" class="fa-solid fa-magnifying-glass" id="search_product_btn"></button>
+          </form>
+          <div class="icons">
+            <div class="fa-solid fa-magnifying-glass" id="search-btn"></div>
+
+            <a href=""><i class="fa-regular fa-heart"></i><sup>0</sup></a>
+            
+            <a href=""><i class="fa-solid fa-cart-shopping"></i><sup>0</sup></a>
+          </div>
+        </section>
+      </header>
+
+    <div class="slider-container"> 
+        <div class="slider">
+            <div class="slideBox active">
+                <div class="textBox">
+                    <h1>a curated collection of timeless <br> fashion pieces from various eras</h1>
+                    <a href="shop.html" class="btn">shop now</a>
+                </div>
+                <div class="imgBox">
+                    <img src="image/a.jpg">
+                </div>
+            </div>
+            <div class="slideBox">
+                <div class="textBox">
+                    <h1>embrace the charm of vintage fashion <br> from the comfort of yours</h1>
+                    <a href="shop.html" class="btn">shop now</a>
+                </div>
+                <div class="imgBox">
+                    <img src="image/b.jpg">
+                </div>
+            </div>
+        </div>
+        <ul class="controls">
+            <li onclick="nextSlide();" class="next"><i class="fa-solid fa-circle-arrow-right"></i></li>
+            <li onclick="prevSlide();" class="prev"><i class="fa-solid fa-circle-arrow-left"></i></li>
+        </ul>
+    </div>
+
+    <div class="service">
+        <div class="box-container">
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/services.png" class ="img1">
+                        <img src="image/services (1).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>delivery</h4>
+                    <span>100% secure</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/services (2).png" class ="img1">
+                        <img src="image/services (3).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>payment</h4>
+                    <span>100% secure</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/services (5).png" class ="img1">
+                        <img src="image/services (6).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>support</h4>
+                    <span>24*7 hours</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/services (7).png" class ="img1">
+                        <img src="image/services (8).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>gift service</h4>
+                    <span>support gift service</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/service.png" class ="img1">
+                        <img src="image/service (1).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>returns</h4>
+                    <span>24*7 free return</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <div class="icon-box">
+                        <img src="image/services.png" class ="img1">
+                        <img src="image/services (1).png" class ="img2">
+                    </div>
+                </div>
+                <div class="detail">
+                    <h4>deliver</h4>
+                    <span>100% secure</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="heading">
+            <h1>categories features</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/categories0.jpg">
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="image/categories1.jpg">
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="image/categories2.jpg">
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+            <div class="box">
+                <img src="image/categories3.jpg">
+                <a href="shop.html" class="btn">shop now</a>
+            </div>
+        </div>
+    </div>
+
+    <img src="image/banner.jpeg" class="shop-banner">
+
+    <div class="thrift-container">
+        <div class="overlay"></div>
+        <div class="detail">
+            <h1>Vintage Thrift</h1> <br><br>
+            <p>Step into a world of timeless elegance with our curated collection of vintage thrift clothes. Each <br> piece tells a story of its own, weaving together the threads of fashion history to create a unique <br> tapestry of style. From the rich textures of well-worn denim to the delicate embroidery of bygone <br> eras, our selection embodies the spirit of a bygone era while offering a sustainable and eco- <br> friendly approach to fashion. Discover the charm of yesteryear, where every garment has a history <br> and every stitch is a testament to enduring craftsmanship. Embrace individuality, express your <br> personality, and redefine modern fashion with our carefully sourced vintage thrift clothes that <br> effortlessly blend nostalgia with contemporary flair.</p>
+            <a href="shop.html" class="btn">shop now</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="content">
+            <div class="box">
+                <h3>my account</h3>
+                <a href=""> <i class="fa-solid fa-circle"></i> My account</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> order history</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> wishlist</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> cart</a>
+            </div>
+            <div class="box">
+                <h3>information</h3>
+                <a href=""> <i class="fa-solid fa-circle"></i> about us</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> deliver information</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> privacy policy</a>
+                <a href=""> <i class="fa-solid fa-circle"></i> terms & condition</a>
+            </div>
+            <div class="box">
+                <h3>contact us</h3>
+                <p> <i class="fa-solid fa-phone"></i> 09923094230</p>
+                <p> <i class="fa-solid fa-envelope"></i> vintagethrift00@gmail.com</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <a href="">become a seller</a>
+        </div>
+    </footer>
+    <script src="user_script.js"></script>
+
+  
+</body>
+</html>
